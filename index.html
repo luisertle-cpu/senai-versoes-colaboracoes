@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A melhor loja de artigos de futebol. Camisas oficiais, chuteiras e acessórios com os melhores preços.">
+    <title>FutStore | Artigos de Futebol Profissionais</title>
+    
+    <meta property="og:title" content="FutStore - Paixão pelo Futebol">
+    <meta property="og:description" content="Encontre o manto do seu time do coração aqui.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container container">
+            <h1 class="header__logo">Fut<span>Store</span></h1>
+            <nav class="header__nav" aria-label="Menu Principal">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#" class="header__link">Camisas</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Chuteiras</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Acessórios</a></li>
+                </ul>
+            </nav>
+            <button class="header__cart" aria-label="Ver Carrinho">
+                🛒 <span id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content container">
+                <h2 class="hero__title">O Manto Sagrado Chegou!</h2>
+                <p class="hero__subtitle">Lançamentos 2026 com 15% OFF no PIX.</p>
+                <a href="#produtos" class="btn btn--primary">Comprar Agora</a>
+            </div>
+        </section>
+
+        <section id="produtos" class="products container">
+            <h2 class="products__title">Destaques da Semana</h2>
+            <div class="products__grid" id="product-list">
+                <p>Carregando produtos...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FutStore - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
